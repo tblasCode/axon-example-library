@@ -20,7 +20,7 @@ class LibraryTest {
     @Test
     void register_library_when_call_register_command_and_return_event() {
         fixture.givenNoPriorActivity()
-        .when(new RegisterLibraryCommand("personal")).expectEvents(new RegisterLibraryEvent("personal"));
+        .when(new RegisterLibraryCommand(1, "personal")).expectEvents(new RegisterLibraryEvent(1, "personal"));
     }
 
 }
