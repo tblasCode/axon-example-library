@@ -1,7 +1,5 @@
 package com.jos.lab.axon.library.command;
 
-import org.axonframework.modelling.command.TargetAggregateIdentifier;
-
 import lombok.Data;
 
 @Data
